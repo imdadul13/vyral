@@ -1,0 +1,21 @@
+export const VYRAL_BRAND = {
+  name: "VYRAL",
+  positioning: "The AI Operating System for Viral Content.",
+  primaryTagline: "Make Every Moment Count.",
+  secondaryTagline: "Discover. Clip. Create. Go Viral.",
+  defaultWatermark: "@vyral.ai",
+  studioWatermark: "@vyral.studio",
+  colors: {
+    background: "#FAFBFD",
+    surface: "#FFFFFF",
+    elevated: "#F4F6FA",
+    border: "#E9ECF2",
+    textPrimary: "#171923",
+    textSecondary: "#737B8C",
+    textMuted: "#9CA3AF",
+    primaryAccent: "#7655E9",
+    secondaryAccent: "#4B9DF8",
+    softAccentBg: "#F2EEFF",
+    success: "#159B75",
+  },
+} as const;
